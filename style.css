@@ -90,7 +90,7 @@
     --accent: #ffd166;          /* Highlight color (sunny yellow). Used for headings inside the bot's replies and the 3rd typing dot. */
 
     /* ----- Backgrounds & text ----- */
-    --background: #0f1030;      /* The color behind the whole page (dark navy). */
+    --background: #3aaf7a;      /* The color behind the whole page (dark navy). */
     --surface: #1b1d44;         /* The color of the big cards: the chat box. */
     --surface-2: #262a5a;       /* A slightly lighter color for "inner" areas: the bot's message bubbles and the typing boxes. */
     --text-primary: #f2f1ff;    /* Main text color (almost white). If you make the backgrounds light, make this dark! */

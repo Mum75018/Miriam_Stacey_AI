@@ -141,11 +141,13 @@ body {
        Each radial-gradient is a round, blurry glow. Read them like:
        radial-gradient(SIZE at LEFT-POSITION TOP-POSITION, GLOW COLOR, fades to transparent by X%).
        The first glow in the list is drawn on top. */
-    background:
-        radial-gradient(60rem 60rem at 12% -10%, rgba(139, 92, 255, 0.35), transparent 60%),  /* Purple glow peeking in from the top-left. */
-        radial-gradient(50rem 50rem at 110% 10%, rgba(224, 92, 200, 0.28), transparent 55%), /* Pink glow from just off the right edge. */
-        radial-gradient(45rem 45rem at 50% 120%, rgba(255, 209, 102, 0.14), transparent 60%),/* Faint yellow glow from below the bottom. */
-        var(--background);       /* The solid background color underneath all the glows. */
+       background-image:url(assets/stars-background.jpg);
+       background-position:center;
+      /*background:
+       /* radial-gradient(60rem 60rem at 12% -10%, rgba(139, 92, 255, 0.35), transparent 60%),  /* Purple glow peeking in from the top-left. */
+       /*radial-gradient(50rem 50rem at 110% 10%, rgba(224, 92, 200, 0.28), transparent 55%), /* Pink glow from just off the right edge. */
+        /*radial-gradient(45rem 45rem at 50% 120%, rgba(255, 209, 102, 0.14), transparent 60%),/* Faint yellow glow from below the bottom. */
+        /*var(--background);       /* The solid background color underneath all the glows. */
     background-attachment: fixed; /* Keeps the glows still while you scroll, instead of scrolling away with the page. */
 }
 

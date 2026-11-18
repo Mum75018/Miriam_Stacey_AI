@@ -85,7 +85,7 @@
    Change a variable once here, and every place that uses it changes. */
 :root {
     /* ----- Your assistant's main colors ----- */
-    --primary-color: #4721a7;   /* Main brand color (deep violet). Used in the header gradient, user message bubbles, buttons, the outline around a box you click into, and the 1st typing dot. */
+    --primary-color: #70d78d;   /* Main brand color (deep violet). Used in the header gradient, user message bubbles, buttons, the outline around a box you click into, and the 1st typing dot. */
     --secondary-color: #0f050d; /* Partner color (almost black). It is the second half of every gradient (header, user bubbles, buttons) and the 2nd typing dot. Try a bright color like #e05cc8 (pink) for a bolder look. */
     --accent: #ffd166;          /* Highlight color (sunny yellow). Used for headings inside the bot's replies and the 3rd typing dot. */
 

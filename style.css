@@ -97,7 +97,7 @@
     --text-secondary: #a7abdb;  /* Softer text color (light lavender) for labels and small notes. */
 
     /* ----- The emoji your assistant uses as its face ----- */
-    /* --bot-face: "🤖"; */       /* Shown in the round badge at the top AND next to every bot message. Swap in any emoji, like "🦄", "🐱" or "🌟". Keep the quotation marks! */
+    /*--bot-face: "🤖";        /* Shown in the round badge at the top AND next to every bot message. Swap in any emoji, like "🦄", "🐱" or "🌟". Keep the quotation marks! */
     /* Want a picture instead?
        1. Put your image in the "assets" folder (next to index.html).
        2. Comment out the emoji line above and uncomment the url() line
@@ -105,7 +105,7 @@
        3. Search "Picture version" and uncomment the two rules under it
           (one for the top badge, one for the bot's messages).
        To go back to an emoji, undo all three steps. */
-    --bot-face: url("assets/OIP.jpeg"); /* Your picture: the folder name, a slash, then the file name. */
+    --bot-face: url(assets/OIP.jpeg); /* Your picture: the folder name, a slash, then the file name. */
 
     /* ----- Motion ----- */
     --transition-speed: 0.25s;  /* How fast things smoothly change, like a button lifting when you hover over it. Bigger = slower (try 0.6s). */
@@ -200,7 +200,7 @@ body {
     box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.35), 0 8px 20px rgba(0, 0, 0, 0.3); /* Two shadows: "inset" draws a 2px white ring on the inside edge; the second is a soft dark shadow underneath. */
     animation: float 4s ease-in-out infinite; /* Runs the "float" animation below so the badge gently bobs up and down. */
 }
-.header__badge::before { content: var(--bot-face); } /* Puts your bot-face emoji (from section 1) inside the circle. */
+.header__badge::before { content:var(--bot-face); } /* Puts your bot-face emoji (from section 1) inside the circle. */
 /* Picture version: uncomment the rule below (and set --bot-face to a
    url() above). You don't need to touch the emoji rule above: this rule
    comes later in the file, so it wins.
@@ -477,7 +477,7 @@ body {
    background-image, and background-size: cover makes the picture fill
    the circle without stretching. */
 .message.assistant::before {
-    content: "";
+    content: " ";
     position: absolute;
     left: -52px;
     top: -2px;
